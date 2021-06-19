@@ -1513,7 +1513,7 @@ type ConstructorParameters<T extends abstract new (...args: any) => any> = T ext
 /**
  * Obtain the return type of a function type
  */
-type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any;
+type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : never;
 
 /**
  * Obtain the return type of a constructor function type
