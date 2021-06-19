@@ -112,7 +112,7 @@ type T14 = ReturnType<typeof f1>;  // { a: number, b: string }
 >ReturnType : Symbol(ReturnType, Decl(lib.es5.d.ts, --, --))
 >f1 : Symbol(f1, Decl(inferTypes1.ts, 12, 27))
 
-type T15 = ReturnType<any>;  // any
+type T15 = ReturnType<any>;  // unknown
 >T15 : Symbol(T15, Decl(inferTypes1.ts, 32, 33))
 >ReturnType : Symbol(ReturnType, Decl(lib.es5.d.ts, --, --))
 
